@@ -1,0 +1,102 @@
+/* ==========================================================================
+   BASE TABLE LAYOUT
+   ========================================================================== */
+.markdown-rendered table,
+.is-live-preview table {
+  width: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-block: 1.5em;
+  margin-inline: auto !important;
+  font-size: 0.95em;
+  font-family: inherit;
+}
+
+.is-live-preview .cm-table-widget {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto !important;
+}
+
+/* Base cell paddings & text wrapping */
+.markdown-rendered th,
+.is-live-preview th {
+  padding: 14px 16px;
+  font-weight: 700;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.markdown-rendered td,
+.is-live-preview td {
+  padding: 14px 16px;
+  vertical-align: middle;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+
+/* ==========================================================================
+   DARK THEME (Matches your second image)
+   ========================================================================== */
+.theme-dark .markdown-rendered table,
+.theme-dark .is-live-preview table {
+  border: 1px solid #1a1d24;
+}
+
+/* Header: Dark slate blue with white text */
+.theme-dark .markdown-rendered th,
+.theme-dark .is-live-preview th {
+  background-color: #3e4854 !important;
+  color: #ffffff !important;
+  border: 1px solid #2d343f;
+}
+
+/* Odd Rows: Dark background with white text */
+.theme-dark .markdown-rendered tr:nth-child(odd) td,
+.theme-dark .is-live-preview tr:nth-child(odd) td {
+  background-color: #242931 !important;
+  color: #ffffff !important;
+  border: 1px solid #1a1d24;
+}
+
+/* Even Rows: Crisp light background with dark text */
+.theme-dark .markdown-rendered tr:nth-child(even) td,
+.theme-dark .is-live-preview tr:nth-child(even) td {
+  background-color: #f3f4f6 !important;
+  color: #111827 !important;
+  border: 1px solid #d1d5db;
+}
+
+/* ==========================================================================
+   LIGHT THEME (Matches your first image)
+   ========================================================================== */
+.theme-light .markdown-rendered table,
+.theme-light .is-live-preview table {
+  border: 1px solid #e2e8f0;
+}
+
+/* Header: Light gray background with dark text */
+.theme-light .markdown-rendered th,
+.theme-light .is-live-preview th {
+  background-color: #dcdfe4 !important;
+  color: #1a1a1a !important;
+  border: 1px solid #cbd5e1;
+}
+
+/* Odd rows: Plain white background */
+.theme-light .markdown-rendered tr:nth-child(odd) td,
+.theme-light .is-live-preview tr:nth-child(odd) td {
+  background-color: #ffffff !important;
+  color: #2d3748 !important;
+  border: 1px solid #e2e8f0;
+}
+
+/* Even rows: Alternating soft gray */
+.theme-light .markdown-rendered tr:nth-child(even) td,
+.theme-light .is-live-preview tr:nth-child(even) td {
+  background-color: #f4f5f7 !important;
+  color: #2d3748 !important;
+  border: 1px solid #e2e8f0;
+}

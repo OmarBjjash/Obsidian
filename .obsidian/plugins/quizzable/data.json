@@ -1,0 +1,256 @@
+{
+  "settings": {
+    "persistence": "plugin-data",
+    "showExplanations": true,
+    "allowAnswerChanges": true,
+    "showPassFail": true,
+    "exportResultsToFrontmatter": false,
+    "frontmatterPrefix": "quizResults"
+  },
+  "attempts": {
+    "CyberOps/Module 11 Network Communication Devices/11.1. Network Devices/11.1.14 Multilayer Switching.md::my-first-quiz": {
+      "quizId": "my-first-quiz",
+      "answers": {
+        "q1": "b",
+        "q2": false
+      },
+      "currentQuestionIndex": 1,
+      "submitted": true,
+      "startedAt": 1789238773770,
+      "completedAt": 1789238817648
+    },
+    "CyberOps/Module 11 Network Communication Devices/11.1. Network Devices/11.1.14 Multilayer Switching.md::capitals": {
+      "quizId": "capitals",
+      "answers": {
+        "q1": "tokyo"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789238914941,
+      "completedAt": 1789238926985
+    },
+    "CyberOps/Module 11 Network Communication Devices/11.1. Network Devices/11.1.14 Multilayer Switching.md::everything": {
+      "quizId": "everything",
+      "answers": {
+        "q3": [
+          "firefox",
+          "chrome"
+        ]
+      },
+      "currentQuestionIndex": 0,
+      "submitted": false,
+      "startedAt": 1789240290720
+    },
+    "CyberOps/Module 11 Network Communication Devices/11.3 Network Communication Devices Summary/11.3.2 Network Communication Devices Quiz.md::networking-fundamentals-quiz": {
+      "quizId": "networking-fundamentals-quiz",
+      "answers": {
+        "q1": "a",
+        "q2": "c",
+        "q3": [
+          "d",
+          "b"
+        ],
+        "q4": "c",
+        "q5": "a",
+        "q6": "a",
+        "q7": "b",
+        "q8": "b",
+        "q9": "c",
+        "q10": "c",
+        "q11": [
+          "b",
+          "c"
+        ],
+        "q12": "d",
+        "q13": "d",
+        "q14": "a"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789254887635,
+      "completedAt": 1789255055957
+    },
+    "CyberOps/Module 11 Network Communication Devices/11.2. Wireless Communications/11.2.7 Check Your Understanding - Steps in the Client and AP Process.md::wlan_association_process": {
+      "quizId": "wlan_association_process",
+      "answers": {
+        "step1_discovery": [
+          "passive_beacon"
+        ],
+        "step2_authentication": [
+          "send_mac",
+          "shared_key_auth"
+        ],
+        "step3_association": [
+          "send_mac",
+          "receive_bssid"
+        ]
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789255678678,
+      "completedAt": 1789255687403
+    },
+    "quizzable.md::everything": {
+      "quizId": "everything",
+      "answers": {
+        "q1": "b",
+        "q2": true,
+        "q3": [
+          "firefox",
+          "chrome"
+        ],
+        "q4": [
+          "static-web",
+          "social-web",
+          "mobile-web"
+        ],
+        "q5": {
+          "reader": "rss",
+          "aim": "chat",
+          "geocities": "hosting"
+        },
+        "q7": 8,
+        "q6": "RDF Site Summary"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789255761256,
+      "completedAt": 1789255974004
+    },
+    "CyberOps/Module 1 The Danger/1.4. The Danger Summary/1.4.2 Module 1 - The Danger Quiz.md::cybersecurity-threats-basics": {
+      "quizId": "cybersecurity-threats-basics",
+      "answers": {},
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789321060554,
+      "completedAt": 1789321076968
+    },
+    "CyberOps/Module 2 Fighters in the War Against Cybercrime/2.1. The Modern Security Operations Center/2.1.10 Check Your Understanding - Identify the SOC Terminology.md::soc-roles-and-devices": {
+      "quizId": "soc-roles-and-devices",
+      "answers": {
+        "q1": "b",
+        "q2": "c",
+        "q3": "d",
+        "q4": "a",
+        "q5": "b"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789322401177,
+      "completedAt": 1789322450050
+    },
+    "CyberOps/Module 2.5 CheckPoint/Checkpoint.md::cybersecurity-soc-fundamentals": {
+      "quizId": "cybersecurity-soc-fundamentals",
+      "answers": {
+        "q4": "d"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1789771400349,
+      "completedAt": 1789771691979
+    },
+    "CyberOps/Untitled.md::cybersecurity-concepts-quiz": {
+      "quizId": "cybersecurity-concepts-quiz",
+      "answers": {
+        "q25": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1790034963844,
+      "completedAt": 1790034988451
+    },
+    "CyberOps/Module 4 Linux OS/4.8. Linux Basics Summary/4.8.2 Module 4 - Linux Basics Quiz.md::linux-networking-basics-quiz": {
+      "quizId": "linux-networking-basics-quiz",
+      "answers": {
+        "q1": "a",
+        "q2": "b",
+        "q3": "c",
+        "q4": "d",
+        "q5": "a",
+        "q6": "d",
+        "q7": "b",
+        "q8": "b",
+        "q9": "a",
+        "q10": "b",
+        "q11": "c",
+        "q12": "d",
+        "q13": "b",
+        "q14": "c"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1792453257462,
+      "completedAt": 1792453938271
+    },
+    "CISCO/NetSec/Module 1 Securing Networks/1.2. Network Topology Overview/1.2.7 Check Your Understanding - Network Topology Protection Overview.md::network-types-quiz": {
+      "quizId": "network-types-quiz",
+      "answers": {
+        "q1": "a",
+        "q2": "d"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1794335484255,
+      "completedAt": 1794335489133
+    },
+    "CISCO/NetSec/Module 1 Securing Networks/1.3 Securing Networks Summary/1.3.2 Module 1 - Securing Networks Quiz.md::network-security-and-topologies-quiz": {
+      "quizId": "network-security-and-topologies-quiz",
+      "answers": {
+        "q1": "a",
+        "q2": "b",
+        "q3": "c",
+        "q4": "b",
+        "q5": "d",
+        "q6": "a",
+        "q7": "d",
+        "q8": "d",
+        "q9": "c",
+        "q10": "d",
+        "q11": "a"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1794336073209,
+      "completedAt": 1794336190069
+    },
+    "CISCO/NetSec/Module 2 Network Threats/2.2. Threat Actor Tools/2.2.4 Check Your Understanding - Classify Cyber Attacks.md::network-attacks-quiz": {
+      "quizId": "network-attacks-quiz",
+      "answers": {
+        "q1": "b",
+        "q2": "c",
+        "q3": "c",
+        "q4": "d",
+        "q5": "b",
+        "q6": "b",
+        "q7": "d"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1794340716165,
+      "completedAt": 1794340770763
+    },
+    "CISCO/NetSec/Module 2 Network Threats/2.6 Network Threats Summary/2.6.2 Network Threats Quiz.md::network-security-threats-and-attacks-quiz": {
+      "quizId": "network-security-threats-and-attacks-quiz",
+      "answers": {},
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1794344392956,
+      "completedAt": 1794344489657
+    },
+    "CISCO/NetSec/Module 4.5 Check Point/Check point.md::network-security-fundamentals": {
+      "quizId": "network-security-fundamentals",
+      "answers": {
+        "q1": "a",
+        "q2": "a"
+      },
+      "currentQuestionIndex": 0,
+      "submitted": true,
+      "startedAt": 1795082893145,
+      "completedAt": 1795082900876
+    }
+  }
+}

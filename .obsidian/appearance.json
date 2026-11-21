@@ -1,0 +1,18 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "giv",
+    "hide-default-icon",
+    "hide-title",
+    "netacad-table",
+    "custom-alerts",
+    "fix-iconize",
+    "heading-colors",
+    "images",
+    "special-block",
+    "cernter-mermaid"
+  ],
+  "accentColor": "",
+  "showRibbon": true
+}

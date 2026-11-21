@@ -1,0 +1,9 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "images",
+    "special-text"
+  ],
+  "accentColor": ""
+}

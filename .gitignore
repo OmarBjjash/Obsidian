@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Keep the .gitignore file itself (optional but recommended)
+!.gitignore
+
+# Keep the .obsidian folder and everything inside it
+!.obsidian/
+!.obsidian/**

@@ -1,0 +1,14 @@
+/* Force code blocks and inline code to stay LTR even in Arabic UI */
+.markdown-rendered code, 
+.markdown-source-view.mod-cm6 .cm-content, 
+.markdown-source-view.mod-cm6 .cm-line,
+pre {
+    direction: ltr !important;
+    unicode-bidi: plaintext !important;
+    text-align: left !important;
+}
+e syntax colors are visible in Reading View */
+.markdown-rendered pre[class*="language-"] {
+    background-color: var(--code-background) !important;
+    color: var(--code-normal) !important;
+}

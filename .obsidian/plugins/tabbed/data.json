@@ -1,0 +1,20 @@
+{
+  "separator": "tab: ",
+  "defaultTitle": "New tab",
+  "defaultContent": "New tab content",
+  "action": "none",
+  "showSuccessNotices": true,
+  "dragAndDrop": false,
+  "doubleClickToEdit": false,
+  "showEditorToolbar": true,
+  "tabSize": 2,
+  "autoSaveDelayMs": 5000,
+  "border": "always",
+  "borderColor": "#e0e0e0",
+  "hideNativeEditButton": true,
+  "titlePosition": "top",
+  "titleLineMode": "one",
+  "limitTitleWidth": true,
+  "contentPadding": "1em 2em",
+  "contentMaxHeight": "none"
+}

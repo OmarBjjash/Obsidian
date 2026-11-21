@@ -1,0 +1,171 @@
+/* =========================================================
+   UNIVERSAL RTL SUPPORT FOR CUSTOM CALLOUTS (Live Preview + Reading)
+   ========================================================= */
+
+/* 1. Force RTL on Callout Titles (Overrides Any-RTL's !important rules) */
+.callout[data-callout="questions"] .callout-title,
+.callout[data-callout="questions"] .callout-title-inner,
+.callout[data-callout="process"] .callout-title,
+.callout[data-callout="process"] .callout-title-inner,
+.callout[data-callout="threads"] .callout-title,
+.callout[data-callout="threads"] .callout-title-inner,
+.callout[data-callout="services"] .callout-title,
+.callout[data-callout="services"] .callout-title-inner,
+.callout[data-callout="answer"] .callout-title,
+.callout[data-callout="answer"] .callout-title-inner,
+.callout[data-callout="solution"] .callout-title,
+.callout[data-callout="solution"] .callout-title-inner,
+.callout[data-callout="click"] .callout-title,
+.callout[data-callout="click"] .callout-title-inner,
+.callout[data-callout="framework"] .callout-title,
+.callout[data-callout="framework"] .callout-title-inner,
+.callout[data-callout="libraries"] .callout-title,
+.callout[data-callout="libraries"] .callout-title-inner {
+  /* direction: rtl !important; */
+  text-align: right !important;
+  justify-content: flex-start !important;
+}
+
+/* 2. Fix Callout Body Content in Live Preview & Reading View */
+.callout[data-callout="questions"] .callout-content,
+.callout[data-callout="process"] .callout-content,
+.callout[data-callout="threads"] .callout-content,
+.callout[data-callout="services"] .callout-content,
+.callout[data-callout="answer"] .callout-content,
+.callout[data-callout="solution"] .callout-content,
+.callout[data-callout="click"] .callout-content,
+.callout[data-callout="framework"] .callout-content,
+.callout[data-callout="libraries"] .callout-content {
+  direction: rtl !important;
+  text-align: right !important;
+}
+/* Enable Any-RTL auto-detection inside Live Preview callout bodies */
+.markdown-source-view.mod-cm6 .callout-content :is(p, li, h1, h2, h3, h4, h5, h6) {
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* 3. Ensure inner paragraphs and lists respect RTL */
+.callout:is(
+  [data-callout="questions"],
+  [data-callout="process"],
+  [data-callout="threads"],
+  [data-callout="services"],
+  [data-callout="answer"],
+  [data-callout="solution"],
+  [data-callout="click"],
+  [data-callout="framework"],
+  [data-callout="libraries"]
+) .callout-content :is(p, ul, ol, li) {
+  direction: rtl !important;
+  text-align: start !important;
+}
+
+
+/* ==========================================
+   CUSTOM CALLOUTS: PROCESS, THREADS, SERVICES
+   ========================================== */
+
+/* 1. PROCESS CALLOUT (Purple Theme) */
+.callout[data-callout="process"] {
+  --callout-color: 138, 43, 226; /* Purple RGB */
+  --callout-icon: lucide-cpu;
+  background-color: rgba(138, 43, 226, 0.1); /* Adds light purple background */
+}
+
+/* 2. THREADS CALLOUT (Orange/Amber Theme) */
+.callout[data-callout="threads"] {
+  --callout-color: 242, 100, 25; /* Orange/Amber RGB */
+  --callout-icon: lucide-git-merge; /* Uses a thread/branching icon */
+  background-color: rgba(242, 100, 25, 0.1); /* Adds light orange background */
+}
+
+/* 3. SERVICES CALLOUT (Teal Theme) */
+.callout[data-callout="services"] {
+  --callout-color: 0, 150, 136; /* Teal RGB */
+  --callout-icon: lucide-cog;
+  background-color: rgba(0, 150, 136, 0.1); /* Adds light teal background */
+}
+
+/* ANSWER CALLOUT (Green Theme) */
+.callout[data-callout="answer"] {
+  --callout-color: 46, 204, 113; /* Green RGB */
+  --callout-icon: lucide-check-circle;
+  background-color: rgba(46, 204, 113, 0.1); /* Adds light green background */
+}
+
+/* SOLUTION CALLOUT (Blue Theme - Alternative) */
+.callout[data-callout="solution"] {
+  --callout-color: 52, 152, 219; /* Blue RGB */
+  --callout-icon: lucide-lightbulb;
+  background-color: rgba(52, 152, 219, 0.1); /* Adds light blue background */
+}
+
+/* CLICK CALLOUT (Pink/Magenta Theme) */
+.callout[data-callout="click"] {
+  --callout-color: 233, 30, 99; /* Pink RGB */
+  --callout-icon: lucide-mouse-pointer-click;
+  background-color: rgba(233, 30, 99, 0.1); /* Adds light pink background */
+}
+/* QUESTIONS CALLOUT (Red Theme) */
+.callout[data-callout="questions"] {
+  --callout-color: rgb(208, 11, 11); /* Strong Red RGB */
+  --callout-icon: lucide-circle-help;
+  background-color: rgba(220, 38, 38, 0.1); /* Adds light red background */
+}
+
+/* ########################################### */
+/* CAUTION CALLOUT (Strong Red Theme + RTL Support) */
+.callout[data-callout="caution"] {
+  --callout-color: 220, 38, 38; /* Strong Red RGB */
+  --callout-icon: lucide-alert-triangle; /* Warning triangle icon */
+  background-color: rgba(220, 38, 38, 0.12); /* Soft red background */
+}
+
+/* Strong Red Title Text & Icon */
+.callout[data-callout="caution"] .callout-title,
+.callout[data-callout="caution"] .callout-title-inner {
+  color: rgb(220, 38, 38) !important;
+  /* text-align: right !important; */
+  justify-content: flex-start !important;
+}
+
+.callout[data-callout="caution"] .callout-icon svg {
+  color: rgb(220, 38, 38) !important;
+}
+
+/* RTL Body Content */
+.callout[data-callout="caution"] .callout-content,
+.callout[data-callout="caution"] .callout-content :is(p, ul, ol, li) {
+  direction: rtl !important;
+  text-align: start !important;
+}
+
+
+/* ==========================================
+   CUSTOM CALLOUTS: FRAMEWORK & LIBRARIES
+   ========================================== */
+   
+   /* FRAMEWORK CALLOUT (Indigo Theme) */
+   .callout[data-callout="framework"] {
+     --callout-color: 79, 70, 229; /* Indigo RGB */
+     --callout-icon: lucide-layout-template; /* Represents a structure/skeleton */
+     background-color: rgba(79, 70, 229, 0.1); /* Adds light indigo background */
+    }
+    
+    /* LIBRARIES CALLOUT (Cyan/Emerald Theme) */
+  .callout[data-callout="libraries"] {
+  --callout-color: 14, 165, 233; /* Sky Blue / Cyan RGB */
+  --callout-icon: lucide-book-open; /* Represents a collection of books/resources */
+  background-color: rgba(14, 165, 233, 0.1); /* Adds light cyan background */
+  }
+  /* ==========================================
+                  CUSTOM GITHUB
+     ========================================== */
+
+.callout[data-callout="github"] {
+  --callout-color: 110, 84, 148; /* GitHub Purple RGB */
+  --callout-icon: lucide-github; /* Built-in Lucide GitHub icon */
+  background-color: rgba(51, 1, 108, 0.2); /* Light purple background */
+}
+

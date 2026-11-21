@@ -1,0 +1,11 @@
+{
+  "provider": "google",
+  "target": "ar",
+  "source": "auto",
+  "fallback": true,
+  "deeplSecret": "",
+  "email": "",
+  "selectionAction": "popup",
+  "folder": "",
+  "openTranslatedNote": true
+}

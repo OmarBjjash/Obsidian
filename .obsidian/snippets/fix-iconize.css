@@ -1,0 +1,14 @@
+/* Add the theme's built-in disable flag and hide any residual mask icon */
+body {
+  --composer-disable-file-folder-icon: 1; /* fallback if needed */
+}
+
+body
+  .workspace-leaf-content[data-type="file-explorer"]
+  .tree-item-icon.collapse-icon,
+body
+  .workspace-leaf-content[data-type="bookmarks"]
+  .tree-item-icon.collapse-icon {
+  background-color: transparent !important;
+  -webkit-mask-image: none !important;
+}
